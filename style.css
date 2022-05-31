@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+
+.navbar-brand,.subtitle {
+    color: #3A68B8;
+    
+}
+
+.btn{
+    background: #3A68B8;
+}
+
+header{
+    background: #060c17;
+}
+.home{
+    background: #08101e;
+}
+.about, .services{
+    background: #070d15;
+}
+
+.card{
+    background: #08101e;
+}
