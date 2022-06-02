@@ -12,14 +12,43 @@
 
 header{
     background: #060c17;
+    /* height: 130px; */
 }
-.home{
+.home, .footer{
     background: #08101e;
 }
-.about, .services{
+.about, .services,.blog{
     background: #070d15;
 }
 
 .card{
     background: #08101e;
+}
+
+.dropdown{
+    background: #08101e;
+}
+.btn {
+    background:#08101e ;
+    /* border: none; */
+}
+
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    color: #fff;
+    background-color: #08101e ;
+    border-color: #08101e ;
+    box-shadow: none;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #08101e;
+    border-color: #08101e;
+}
+.btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #08101e;
+    border-color: #08101e;
+}
+.btn-secondary:active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none !important;
 }
